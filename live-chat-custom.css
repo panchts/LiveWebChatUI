@@ -1,0 +1,281 @@
+/* .cx-sidebar-button .cx-icon {
+    content: url('./assets/chatIcon.svg')
+} */
+.cx-widget .cx-side-button-group {
+    display: none;
+}
+
+.cx-sidebar-button .cx-icon {
+    content: url('./assets/chatIcon.svg')
+}
+
+
+.cx-theme-dark .cx-sidebar-button .cx-icon {
+    content: url('./assets/darkChatIcon.svg')
+}
+
+.cx-titlebar .cx-icon {
+    content: url('./assets/chatIcon.svg');
+    width: 40px !important;
+    height: 34px !important;
+    left: 60px;
+    position: relative;
+    left: 0;
+}
+
+.cx-theme-dark .cx-titlebar .cx-icon {
+    content: url('./assets/darkChatIcon.svg');
+    width: 40px;
+    height: 34px;
+    left: 60px;
+    position: relative;
+    left: 0;
+}
+
+
+.cx-titlebar {
+    display: flex;
+}
+
+.cx-title {
+    /* padding-left: 20px; */
+    font-weight: 400 !important;
+}
+
+/* .cx-button-maximize{
+    content: url('./assets/chatIcon.svg')
+} */
+
+.cx-button-maximize {
+    background-image: url('./assets/maximizeIcon.svg');
+    background-size: contain;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cx-common-container.cx-minimized .cx-buttons-window-control .cx-button-maximize svg {
+    display: none;
+}
+
+
+.cx-form table {
+    display: none;
+}
+
+.cx-form .cx-button-group {
+    display: none;
+}
+
+/* WebChat Widget Customization */
+#custom-notification {
+    background-color: #E4F5F5;
+    padding: 8px 29px 8px 22px;
+    top: 79px;
+    height: 82px;
+    width: auto;
+    gap: 8px;
+    /* font-family: sans-serif; */
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+}
+
+#feedback-button {
+    position: relative;
+    width: 60%;
+    height: 10%;
+    left: 15%;
+    padding: 5px;
+    color: #ffff;
+    border-radius: 3px;
+    border-color: #588935;
+    background-color: #588935;
+    margin: 8px 8px 8px 8px;
+    font-weight: 500;
+}
+
+
+#option-button-billing-question,
+#option-button-how-to-pay-my-bill-copy,
+#option-button-make-a-payment,
+#option-button-ways-to-save {
+    width: 90%;
+    height: 10%;
+    top: 243px;
+    left: 25.42px;
+    padding: 5px;
+    gap: 16px;
+    border-radius: 8px;
+    border-color: black;
+    background-color: inherit;
+    margin: 8px 8px 8px 8px;
+    font-weight: 500;
+}
+
+#privacy-policy {
+    text-decoration: underline;
+    color: #00664F;
+}
+
+#queue-message {
+    font-weight: 600;
+    align-items: center;
+    /* top: -2px; */
+    position: relative;
+    padding: 4%;
+    line-height: 16px;
+    text-align: center;
+}
+
+#intro-message,
+#agent-connected-message {
+    position: relative;
+    background-color: #F8FAE4;
+    border-radius: 16px;
+    padding: 17px;
+    margin: 0px 10px 0px 10px;
+    color: #101820;
+}
+
+#intro-message div,
+#agent-connected-message div {
+    top: 20px;
+    position: relative;
+    background-color: #F8FAE4;
+}
+
+#chat-transcript #chat-message--heading {
+    width: 70%;
+    margin: 5% auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+#chat-transcript div {
+    margin: 0 auto;
+    text-align: left;
+    width: 80%;
+}
+
+#chat-transcript div span {
+    font-weight: 700;
+    margin-right: 2%;
+}
+
+#click-message {
+    width: 80%;
+    margin: 8% auto;
+    text-align: center;
+    background-color: #F8FAE4;
+    border-radius: 16px;
+    padding: 17px 17px 17px 17px;
+    position: relative;
+    display: none;
+    color: black;
+}
+
+
+#chat-end-message {
+    position: relative;
+    background-color: #F8FAE4;
+    border-radius: 16px;
+    padding: 17px 17px 0px 17px;
+    /* margin: 0px 10px 20px 10px; */
+    bottom: -10%;
+    color: #000;
+}
+
+.cx-webchat .cx-transcript {
+    padding: 0;
+}
+
+
+
+.cx-widget.cx-theme-dark #custom-notification {
+    color: #101820
+}
+
+.cx-widget.cx-theme-dark #intro-message {
+    color: #101820;
+    /* font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px; */
+}
+
+#notification-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+
+#notification-icon :hover {
+    opacity: 0.8;
+}
+
+.mode-icon {
+    position: relative;
+    left: -10px;
+    top: -5px;
+}
+
+.mode-icon-text {
+    width: 64px;
+    height: 17px;
+    top: 43px;
+    left: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: center;
+    font-family: inherit;
+}
+
+
+/* toaster */
+.cx-toaster {
+    bottom: 90px !important;
+    right: 55px !important;
+    transition: none !important;
+}
+
+.cx-bubble {
+    padding: 1% 4% 1% 4% !important;
+}
+
+/* to add placeholder box styling */
+.input-box {
+    background-color: #00664F;
+    width: 1000px;
+    height: 1000px;
+}
+
+.cx-textarea-cell::placeholder {
+    color: #888888;
+}
+
+.cx-smokescreen {
+    position: unset !important;
+}
+
+.cx-widget.cx-theme-light .cx-btn-primary {
+    border-color: #79828c !important;
+    background: #79828c !important;
+    background-color: #79828c !important;
+}
+
+.cx-widget.cx-theme-light .cx-btn-default,
+.cx-widget.cx-theme-dark .cx-btn-default {
+    border-color: #588935 !important;
+    background: #588935 !important;
+    background-color: #588935 !important;
+}
+
+.cx-widget.cx-theme-dark .cx-btn-primary {
+    border-color: #222529 !important;
+    background: #222529 !important;
+    background-color: #222529 !important;
+}
